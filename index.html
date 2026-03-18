@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Patel | Software Engineer</title>
+    <meta name="description" content="Deep Patel — Software Engineer at Capital One. Portfolio showcasing experience, projects, and technical skills in full-stack development, cloud computing, and API design.">
+    <meta name="keywords" content="Deep Patel, Software Engineer, Full Stack Developer, Capital One, React, Python, Java, AWS">
+    <meta name="author" content="Deep Patel">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Deep Patel | Software Engineer">
+    <meta property="og:description" content="Software Engineer with expertise in full-stack development, cloud infrastructure, and API design.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">DP</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="mailto:deeppatel1944@gmail.com" class="nav-link nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, my name is</p>
+            <h1 class="hero-name">Deep Patel</h1>
+            <h2 class="hero-title">
+                <span class="typing-wrapper">
+                    <span id="typingText"></span>
+                    <span class="cursor">|</span>
+                </span>
+            </h2>
+            <p class="hero-description">
+                I build high-performance backend systems and full-stack applications. 
+                Currently engineering scalable APIs and cloud infrastructure at 
+                <span class="highlight">Capital One</span>.
+            </p>
+            <div class="hero-cta">
+                <a href="#experience" class="btn btn-primary">View My Work</a>
+                <a href="#resume" class="btn btn-outline">Download Resume</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://linkedin.com/in/deepp805" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/deepp805" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:deeppatel1944@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span> About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Software Engineer at <span class="highlight">Capital One</span> with a passion for 
+                        building performant, scalable systems. I specialize in backend development, cloud infrastructure, 
+                        and full-stack application design.
+                    </p>
+                    <p>
+                        My work has delivered measurable impact — from APIs serving <span class="highlight">30,000+ requests weekly</span> 
+                        to optimizations saving <span class="highlight">$20,000+ annually</span> in cloud costs. I thrive on 
+                        solving complex engineering challenges and presenting innovative solutions.
+                    </p>
+                    <p>
+                        I graduated from <span class="highlight">Boston University</span> with a B.S. in Computer Science 
+                        and hold an <span class="highlight">AWS Certified Solutions Architect</span> certification.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span> Experience
+            </h2>
+            <div class="timeline">
+                <!-- Capital One SWE -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Software Engineer</h3>
+                                <p class="timeline-company">Capital One</p>
+                            </div>
+                            <span class="timeline-date">Feb 2025 – Present</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Delivered critical API functionality 1 month ahead of schedule by implementing core features and reducing cross-team dependencies, currently serving over <strong>30,000 requests per week</strong></li>
+                            <li>Reduced Java Lambda execution times by over <strong>60%</strong> using Lambda Priming optimization and presented findings at annual company-wide conference</li>
+                            <li>Implemented smoke testing for ECS application during deployments, saving ~2 hours per failed deployment</li>
+                            <li>Decreased AWS Lambda cost across organization by ~10% (<strong>$20,000+ annually</strong>) by automating migration to more efficient processors</li>
+                            <li>Increased application availability by <strong>17.5% daily</strong> by identifying and resolving a bug causing backend requests to fail after a certain time each day</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">AWS Lambda</span>
+                            <span class="tag">ECS</span>
+                            <span class="tag">APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Capital One Intern -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Software Engineer Intern</h3>
+                                <p class="timeline-company">Capital One</p>
+                            </div>
+                            <span class="timeline-date">Jun 2024 – Aug 2024</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Developed Chrome Extension for employees that identifies non-inclusive language and suggests alternatives</li>
+                            <li>Created an Inclusive Language API powering a slackbot currently used by <strong>40,000+ associates</strong></li>
+                            <li>Reduced AWS Lambda function costs by ~<strong>70%</strong> by migrating from time-based polling to event-driven, user-triggered execution</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Chrome Extensions</span>
+                            <span class="tag">AWS Lambda</span>
+                            <span class="tag">Slack API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BU Researcher -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Undergraduate Researcher</h3>
+                                <p class="timeline-company">Boston University</p>
+                            </div>
+                            <span class="timeline-date">Sep 2023 – Dec 2023</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Developed front-end interface of an open-source satellite data analysis tool using React.js</li>
+                            <li>Enabled users to choose desired location and time frame utilizing ArcGIS mapping library</li>
+                            <li>Rendered heat maps showing data analysis results using React Leaflet and Google Maps</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">ArcGIS</span>
+                            <span class="tag">Leaflet</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flexera -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Software Engineer Intern</h3>
+                                <p class="timeline-company">Flexera</p>
+                            </div>
+                            <span class="timeline-date">Jun 2023 – Aug 2023</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Slashed manual monitoring efforts by ~<strong>7 hours weekly</strong> by developing a Python-based bot to automate checking time-sensitive updates on critical web-pages</li>
+                            <li>Reduced maintenance effort by enabling real-time visibility and management of scraping configurations through a centralized interface</li>
+                            <li>Increased number of monitored sites from 200 to <strong>300+</strong> by utilizing Selenium for dynamic web pages</li>
+                            <li>Reduced incorrect web scraping configurations in database to <strong>&lt;1%</strong> by implementing robust error checking</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Selenium</span>
+                            <span class="tag">Web Scraping</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span> Projects
+            </h2>
+            <div class="projects-grid">
+                <!-- Hackathon -->
+                <div class="project-card reveal">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/deepp805" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Capital One Intern Hackathon</h3>
+                    <span class="project-award"><i class="fas fa-medal"></i> 1st Place</span>
+                    <p class="project-description">
+                        Migrated data from CSV files containing information about minority-owned businesses to a SQL database. 
+                        Developed RESTful API endpoints using Flask for seamless frontend integration.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Flask</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Course Registration Bot -->
+                <div class="project-card reveal">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/deepp805" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Course Registration Bot</h3>
+                    <p class="project-description">
+                        Engineered a course registration bot to enroll students into high-demand classes with a success 
+                        rate of over <strong>90%</strong>. Integrated Twilio API for instant SMS notifications upon successful registration.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">Selenium</span>
+                        <span class="tag">Twilio</span>
+                    </div>
+                </div>
+
+                <!-- Quick Maths -->
+                <div class="project-card reveal">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/deepp805" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Quick Maths</h3>
+                    <p class="project-description">
+                        Built a mental math quiz game that helps users sharpen their arithmetic skills through timed tests. 
+                        Sustained user engagement resulting in <strong>2,600+ questions</strong> completed to date.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">CockroachDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span> Technical Skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">Java</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">TypeScript</span>
+                        <span class="skill-pill">SQL</span>
+                        <span class="skill-pill">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Frameworks</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill">React.js</span>
+                        <span class="skill-pill">Next.js</span>
+                        <span class="skill-pill">Django</span>
+                        <span class="skill-pill">Flask</span>
+                        <span class="skill-pill">Node.js</span>
+                        <span class="skill-pill">Express.js</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Developer Tools</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill">PostgreSQL</span>
+                        <span class="skill-pill">MongoDB</span>
+                        <span class="skill-pill">Git</span>
+                        <span class="skill-pill">AWS Lambda</span>
+                        <span class="skill-pill">MySQL</span>
+                        <span class="skill-pill">Splunk</span>
+                        <span class="skill-pill">Jenkins</span>
+                        <span class="skill-pill">Snowflake</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Certifications</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill skill-pill-highlight">AWS Certified Solutions Architect</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">05.</span> Education
+            </h2>
+            <div class="education-card reveal">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-info">
+                    <h3>Boston University</h3>
+                    <p class="education-degree">Bachelors in Computer Science</p>
+                    <p class="education-location"><i class="fas fa-map-marker-alt"></i> Boston, MA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="section section-alt" id="resume">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">06.</span> Resume
+            </h2>
+            <div class="resume-section">
+                <div class="resume-actions">
+                    <a href="Deep_Patel_Resume.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="Deep_Patel_Resume.pdf" target="_blank" class="btn btn-outline">
+                        <i class="fas fa-external-link-alt"></i> Open in New Tab
+                    </a>
+                </div>
+                <div class="resume-embed">
+                    <iframe src="Deep_Patel_Resume.pdf#toolbar=0&navpanes=0&view=FitH" title="Deep Patel Resume" width="100%" height="1100"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-name">Deep Patel</h3>
+                    <p class="footer-tagline">Software Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:deeppatel1944@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:917-607-3992" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/deepp805" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/deepp805" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Deep Patel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
