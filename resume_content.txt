@@ -3,19 +3,19 @@ Deep Patel
 Experience
 Capital One February 2025 – Present
 Software Engineer
-• Delivered critical API functionality 1 month ahead of schedule by implementing core features and reducing
-cross-team dependencies, which currently serves over 30,000 requests per week
-• Reduced Java Lambda execution times by over 60% by using Lambda Priming optimization methods and
-presented these findings at annual company-wide conference
-• Implemented smoke testing for ECS application during deployments, saving ∼2 hours per failed deployment
-• Decreased AWS Lambda cost across organization by ∼10% ($20,000+ annually) by automating migration to more
-efficient processors
+• Owned and delivered high-throughput, compliance-critical API 1 month ahead of schedule by driving
+architecture and implementing core functionality; now powers 100% of federal CTR filings
+• Optimized AWS Lambda performance and cost by reducing execution times by over 60% and automating
+migration to more efficient processors, lowering infrastructure spend by ∼10% ($30,000+ annually); presented
+results at company-wide engineering conference
+• Implemented smoke testing for ECS Fargate application during deployments, saving ∼2 hours per failed
+production deployment
 • Increased application availability by 17.5% daily by identifying and resolving a bug causing backend requests to
 fail after a certain time each day
 Capital One June 2024 – August 2024
 Software Engineer Intern
-• Developed Chrome Extension for employees that identifies non-inclusive language and suggests alternatives
-• Created an Inclusive Language API powering a slackbot currently used by 40,000+ associates
+• Developed Chrome extension for employees that identifies non-inclusive language and suggests alternatives
+• Created an Inclusive Language API powering a Slack Bot currently used by 40,000+ associates
 • Reduced AWS Lambda function costs by ∼70% by migrating from time-based polling (1/sec) to event-driven,
 user-triggered execution
 Boston University September 2023 – December 2023
@@ -26,26 +26,23 @@ Undergraduate Researcher
 Flexera June 2023 – August 2023
 Software Engineer Intern
 • Slashed manual monitoring efforts of engineering team by ∼7 hours weekly by developing a Python-based bot to
-automate the process of checking for time-sensitive updates on critical web-pages
+automate the process of checking for time-sensitive updates on critical web pages
 • Reduced maintenance effort by enabling real-time visibility and management of user-defined scraping configurations
 through a centralized interface
 • Increased number of monitored sites from 200 to 300+ by utilizing Selenium to scrape dynamic web pages
 • Reduced incorrect web scraping configurations in the database to <1% by implementing robust error checking
 Projects
 1st Place @ Capital One Intern Hackathon | Flask, Python, SQL
-• Migrated data from CSV file containing information about minority owned businesses to SQL database
+• Performed data cleanup and migration from CSV file containing small business information to SQL database
 • Developed RESTful API endpoints using Flask to serve data from the database for integration with the frontend
 Course Registration Bot | Python, Flask, Selenium
 • Engineered a course registration bot to enroll students into high demand classes with a success rate of over 90%
-• Utilized the Twilio API to notify student immediately when they were registered into the course
-Quick Maths | React, Typescript, Node.js, CockroachDB
-• Created a mental math quiz game that allows user to practice their mental math skills by taking short timed tests
-• Sustained user engagement over several months, resulting in the completion of over 2,600 questions to date
+• Utilized the Twilio API to notify students immediately when they were registered into the course
 Education
 Boston University Boston, MA
-Bachelors in Computer Science
+Bachelors in Computer Science Latin Honors | Dean’s List
 Technical Skills
 Languages: Python, Java, JavaScript, TypeScript, SQL, HTML/CSS
 Frameworks: React.js, Next.js, Django, Flask, Node.js, Express.js
-Developer Tools: PostgreSQL, MongoDB, Git, AWS Lambda, MySQL, Splunk, Jenkins, Snowflake
+Developer Tools: PostgreSQL, MongoDB, Git, AWS Lambda, MySQL, Splunk, Jenkins, Snowflake, Cucumber
 Certifications: AWS Certified Solutions Architect

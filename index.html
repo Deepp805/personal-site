@@ -34,7 +34,7 @@
             <ul class="nav-links" id="navLinks">
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <!-- <li><a href="#projects" class="nav-link">Projects</a></li> -->
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#resume" class="nav-link">Resume</a></li>
@@ -102,8 +102,8 @@
                         and full-stack application design.
                     </p>
                     <p>
-                        My work has delivered measurable impact — from APIs serving <span class="highlight">30,000+ requests weekly</span> 
-                        to optimizations saving <span class="highlight">$20,000+ annually</span> in cloud costs. I thrive on 
+                        My work has delivered measurable impact — from owning compliance-critical APIs powering <span class="highlight">100% of federal CTR filings</span> 
+                        to optimizations saving <span class="highlight">$30,000+ annually</span> in cloud costs. I thrive on 
                         solving complex engineering challenges and presenting innovative solutions.
                     </p>
                     <p>
@@ -135,10 +135,9 @@
                             <span class="timeline-date">Feb 2025 – Present</span>
                         </div>
                         <ul class="timeline-details">
-                            <li>Delivered critical API functionality 1 month ahead of schedule by implementing core features and reducing cross-team dependencies, currently serving over <strong>30,000 requests per week</strong></li>
-                            <li>Reduced Java Lambda execution times by over <strong>60%</strong> using Lambda Priming optimization and presented findings at annual company-wide conference</li>
-                            <li>Implemented smoke testing for ECS application during deployments, saving ~2 hours per failed deployment</li>
-                            <li>Decreased AWS Lambda cost across organization by ~10% (<strong>$20,000+ annually</strong>) by automating migration to more efficient processors</li>
+                            <li>Owned and delivered high-throughput, compliance-critical API 1 month ahead of schedule by driving architecture and implementing core functionality; now powers <strong>100% of federal CTR filings</strong></li>
+                            <li>Optimized AWS Lambda performance and cost by reducing execution times by over <strong>60%</strong> and automating migration to more efficient processors, lowering infrastructure spend by ~10% (<strong>$30,000+ annually</strong>); presented results at company-wide engineering conference</li>
+                            <li>Implemented smoke testing for ECS Fargate application during deployments, saving ~2 hours per failed production deployment</li>
                             <li>Increased application availability by <strong>17.5% daily</strong> by identifying and resolving a bug causing backend requests to fail after a certain time each day</li>
                         </ul>
                         <div class="timeline-tags">
@@ -162,9 +161,9 @@
                             <span class="timeline-date">Jun 2024 – Aug 2024</span>
                         </div>
                         <ul class="timeline-details">
-                            <li>Developed Chrome Extension for employees that identifies non-inclusive language and suggests alternatives</li>
-                            <li>Created an Inclusive Language API powering a slackbot currently used by <strong>40,000+ associates</strong></li>
-                            <li>Reduced AWS Lambda function costs by ~<strong>70%</strong> by migrating from time-based polling to event-driven, user-triggered execution</li>
+                            <li>Developed Chrome extension for employees that identifies non-inclusive language and suggests alternatives</li>
+                            <li>Created an Inclusive Language API powering a Slack Bot currently used by <strong>40,000+ associates</strong></li>
+                            <li>Reduced AWS Lambda function costs by ~<strong>70%</strong> by migrating from time-based polling (1/sec) to event-driven, user-triggered execution</li>
                         </ul>
                         <div class="timeline-tags">
                             <span class="tag">Chrome Extensions</span>
@@ -187,8 +186,8 @@
                         </div>
                         <ul class="timeline-details">
                             <li>Developed front-end interface of an open-source satellite data analysis tool using React.js</li>
-                            <li>Enabled users to choose desired location and time frame utilizing ArcGIS mapping library</li>
-                            <li>Rendered heat maps showing data analysis results using React Leaflet and Google Maps</li>
+                            <li>Enabled users to easily choose their desired location and time frame by utilizing the ArcGIS mapping library</li>
+                            <li>Rendered heat map showing the results of data analysis using React Leaflet and Google Maps</li>
                         </ul>
                         <div class="timeline-tags">
                             <span class="tag">React.js</span>
@@ -210,10 +209,10 @@
                             <span class="timeline-date">Jun 2023 – Aug 2023</span>
                         </div>
                         <ul class="timeline-details">
-                            <li>Slashed manual monitoring efforts by ~<strong>7 hours weekly</strong> by developing a Python-based bot to automate checking time-sensitive updates on critical web-pages</li>
-                            <li>Reduced maintenance effort by enabling real-time visibility and management of scraping configurations through a centralized interface</li>
-                            <li>Increased number of monitored sites from 200 to <strong>300+</strong> by utilizing Selenium for dynamic web pages</li>
-                            <li>Reduced incorrect web scraping configurations in database to <strong>&lt;1%</strong> by implementing robust error checking</li>
+                            <li>Slashed manual monitoring efforts of engineering team by ~<strong>7 hours weekly</strong> by developing a Python-based bot to automate the process of checking for time-sensitive updates on critical web pages</li>
+                            <li>Reduced maintenance effort by enabling real-time visibility and management of user-defined scraping configurations through a centralized interface</li>
+                            <li>Increased number of monitored sites from 200 to <strong>300+</strong> by utilizing Selenium to scrape dynamic web pages</li>
+                            <li>Reduced incorrect web scraping configurations in the database to <strong>&lt;1%</strong> by implementing robust error checking</li>
                         </ul>
                         <div class="timeline-tags">
                             <span class="tag">Python</span>
@@ -226,8 +225,9 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section class="section" id="projects">
+    <!-- Projects Section (commented out) -->
+    <!-- Hidden instead of nested HTML comments to preserve inner comments/content -->
+    <section class="section" id="projects" style="display:none;" aria-hidden="true">
         <div class="container">
             <h2 class="section-title">
                 <span class="section-number">03.</span> Projects
@@ -248,8 +248,8 @@
                     <h3 class="project-title">Capital One Intern Hackathon</h3>
                     <span class="project-award"><i class="fas fa-medal"></i> 1st Place</span>
                     <p class="project-description">
-                        Migrated data from CSV files containing information about minority-owned businesses to a SQL database. 
-                        Developed RESTful API endpoints using Flask for seamless frontend integration.
+                        Performed data cleanup and migration from CSV file containing small business information to SQL database. 
+                        Developed RESTful API endpoints using Flask to serve data from the database for integration with the frontend.
                     </p>
                     <div class="project-tags">
                         <span class="tag">Flask</span>
@@ -310,6 +310,7 @@
             </div>
         </div>
     </section>
+    <!-- /Projects Section (commented out) -->
 
     <!-- Skills Section -->
     <section class="section section-alt" id="skills">
@@ -360,6 +361,7 @@
                         <span class="skill-pill">Splunk</span>
                         <span class="skill-pill">Jenkins</span>
                         <span class="skill-pill">Snowflake</span>
+                        <span class="skill-pill">Cucumber</span>
                     </div>
                 </div>
                 <div class="skill-category reveal">
@@ -387,7 +389,7 @@
                 </div>
                 <div class="education-info">
                     <h3>Boston University</h3>
-                    <p class="education-degree">Bachelors in Computer Science</p>
+                    <p class="education-degree">Bachelors in Computer Science — Latin Honors | Dean's List</p>
                     <p class="education-location"><i class="fas fa-map-marker-alt"></i> Boston, MA</p>
                 </div>
             </div>
